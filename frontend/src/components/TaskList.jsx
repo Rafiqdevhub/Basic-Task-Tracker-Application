@@ -47,9 +47,7 @@ const TaskList = () => {
             className="bg-gray-100 p-4 rounded shadow flex justify-between items-center"
           >
             <div>
-              <span
-                className={task.status === "completed" ? "line-through" : ""}
-              >
+              <span className={task.status === "completed" ? "underline" : ""}>
                 {task.description}
               </span>{" "}
               -
