@@ -19,7 +19,7 @@ const TaskList = () => {
 
   const deleteTask = async (id) => {
     try {
-      await axios.delete(`http://localhost:3000/api/deleteTask/${id}`);
+      await axios.delete(`http://localhost:3000/api/delete/${id}`);
       fetchTasks();
     } catch (error) {
       console.error(error);
