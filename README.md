@@ -3,9 +3,6 @@
 This is the README file for the Basic-Task-Tracker-Application.
 
 ## Table of Contents
-
-- [Basic-Task-Tracker-Application](#basic-task-tracker-application)
-  - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Features](#features)
   - [Installation](#installation)
